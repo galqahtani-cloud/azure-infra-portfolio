@@ -1,0 +1,7 @@
+# Never commit state files, secrets or local settings
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfvars
+*.env
+.DS_Store
